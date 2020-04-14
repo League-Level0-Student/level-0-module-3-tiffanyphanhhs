@@ -29,17 +29,18 @@ public class RobotColorChooser {
 			} else {
 					Siri.setRandomPenColor();
 			}
+			Siri.setPenWidth(10);
+			Siri.penDown();
+			Siri.turn(90);
+			Siri.move(100);
 		}
 	
         //6. If the user doesn’t enter anything, choose a random color
 
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
 		//4. Set the pen width to 10
-		Siri.setPenWidth(10);
-		Siri.penDown();
+
 		//2. Make the robot draw a shape (this will take more than one line of code)
-		Siri.turn(90);
-		Siri.move(100);
-		
+
 	}
 }
